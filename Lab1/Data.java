@@ -11,7 +11,7 @@ public class Data {
 	        LargestDigit = Digit;
 	    }
 	    SumOfDigits+=Digit;
-	    Num0fDigits++;
+	    NumOfDigits++;
 	}
 
 	
