@@ -16,13 +16,20 @@ public class Student {
 		this(name);
 		this.year_of_study = year;
 	}
-	public static string getName(){
+	public  String getName(){
         return this.name;
     }
-	public static int getId(){
+	public  int getId(){
         return this.id;
     }
-	public static void Increment_year(int year) {
+    public  int getYear(){
+        return this.year_of_study;
+    }
+	public  void Increment_year(int year) {
 		this.year_of_study += year;
 	}
+	public  void print() {
+		System.out.println(this.getName() + " " + this.getId() + " " +this.getYear());
+	}
+	
 }
