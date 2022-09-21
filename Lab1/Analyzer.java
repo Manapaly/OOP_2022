@@ -1,6 +1,6 @@
 public class Analyzer {
-	public Avarage = 0;
-	public Maximum = 0;
+	public double Avarage = 0;
+	public double Maximum = 0;
 	Analyzer(){
 	}
 	
@@ -8,7 +8,7 @@ public class Analyzer {
 	    if(D.LargestDigit==Integer.MIN_VALUE){
 	        return 0;
 	    }else{
-	        return D.SumOfDigits/D.NumOfDigits
+	        return D.SumOfDigits/D.NumOfDigits;
 	    }
 
 	}
