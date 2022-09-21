@@ -2,16 +2,21 @@ import java.util.Scanner;
 
 public class Main{
 	public static void main(String[] args) {
-	    Scanner scan = new Scanner(System.in);
+
 		Data D = new Data();
-		String S;
-		while(S!="Q"){
-		    Scanner scan = new Scanner(System.in);
-		    D.add(scan.nextInt());
+		boolean ok = true;
+		while(ok){
+		    Scanner sc = new Scanner(System.in);
+		    String S = sc.nextLine();
+		    if(S!="Q"){
+		        D.AddData(Integer.parseInt(S));
+		    }else{
+		        ok = false;
+		    }
 		}
 		
-        System.out.printf(Analyzer.GetAvarageFromData(D));
-        System.out.printf(Analyzer.GetMaximumFromData(D));
+        System.out.println(Analyzer.GetAvarageFromData(D));
+        System.out.println(Analyzer.GetMaximumFromData(D));
 
 		
 	}
