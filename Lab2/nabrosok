@@ -1,0 +1,38 @@
+public class Cabinet {
+	public int NumOfStudentsEnteringInCabinet;
+	static final int CabinetsСaunt = 5;
+	static final int NumOfSeatsInCabinet;
+	String NameOfCabinet;
+	String RoomsHead;
+	String StudentsName;
+	static Vector<Cabinet> cabinets;
+	static{
+		cabinets = new Vector<Cabinet>();
+	}
+	{
+	    NumOfStudents++;
+	    students.add(this.StudentsName)
+	    if(!CheckRoom()){
+	        System.out.println("Сен кабинетке симайсын");
+	    }
+	}
+	ComputerRoom(){
+	}
+	ComputerRoom(String NameOfCabinet){
+	    this.NameOfCabinet = NameOfCabinet;
+	}
+    ComputerRoom(String NameOFCabinet, int NumOfCabinets){
+        this(NameOFCabinet);
+        NumOfCabinets = NumOfCabinets;
+    }
+    ComputerRoom(String NameOFCabinet, int NumOfCabinets, String RoomsHead, String StudentsName){
+        this(NameOFCabinet, NumOfCabinets);
+        RoomsHead = RoomsHead;
+        StudentsName = StudentsName;
+    }	
+	static boolean CheckRoom(){
+	    if(NumOfStudents > NumOfSeats){
+	        return false;
+	    }
+	}
+}
