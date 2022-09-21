@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main{
+public class MainData{
 	public static void main(String[] args) {
 
 		Data D = new Data();
@@ -9,7 +9,7 @@ public class Main{
 		while(true){
 		    Scanner sc = new Scanner(System.in);
 		    String S = sc.nextLine();
-		    if(!S.equals("Q")){
+		    if(S.equals("Q")){
 		        break;
 		    }else{
 		        D.AddData(Double.parseDouble(S));
