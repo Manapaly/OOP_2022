@@ -81,30 +81,12 @@ public class Time {
 		return h + ":" + m + ":" + s + " " + mode;
 	}
 	
-// 	public boolean checkTime() {
-// 		if(this.second >= 60) {
-// 			return false;
-// 		}
-// 		if(this.minute >= 60) {
-// 			return false;
-// 		}
-// 		if(this.hour >= 24) {
-// 			return false;
-// 		}
-// 	}
+
 	
 	public void add(Time new_t) {
 		int last_h = this.hour += new_t.hour;
 		int last_m = this.minute += new_t.minute;
 		int last_s = this.second += new_t.second;
 
-        // if(last_s>59){
-        //     last_m =             
-        //     last_m = last_m % 60;
-        // }
-// 		if(checkTime(new Time(last_h,last_m,last_s))==false){
-//             System.out.println("kaz tuzeim");
-//         }
-		// setTime();
 	}
 }
