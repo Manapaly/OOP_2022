@@ -1,7 +1,7 @@
 public class Data {
-	private double LargestDigit = Integer.MIN_VALUE;
-	private int NumOfDigits = 0;
-	private double SumOfDigits = 0;
+	public double LargestDigit = Integer.MIN_VALUE;
+	public int NumOfDigits = 0;
+	public double SumOfDigits = 0;
 	
 	Data(){
 	}
@@ -10,7 +10,7 @@ public class Data {
 	    if(Digit > LargestDigit){
 	        LargestDigit = Digit;
 	    }
-	    SumOfDigits+=data;
+	    SumOfDigits+=Digit;
 	    Num0fDigits++;
 	}
 
