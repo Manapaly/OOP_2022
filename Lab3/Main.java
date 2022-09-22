@@ -1,8 +1,13 @@
-
 public class Main
 {
-	public static void main(String[] args) {
-		Temperature T = new Temperature(36, 'C');
-		System.out.println(T.toString());
-	}
-}
+    public static void main(String[] args) {
+        Temperature T = new Temperature(36, 'C');
+        Temperature T2 = new Temperature(28);
+        Temperature T3 = new Temperature('C');
+        Temperature T4 = new Temperature('F');
+        System.out.println(T.toString());
+        System.out.println(T2.toString());
+        System.out.println(T3.toString());
+        System.out.println(T4.toString());
+  
+ }
