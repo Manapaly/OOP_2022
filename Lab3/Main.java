@@ -9,5 +9,5 @@ public class Main
         System.out.println(T2.toString());
         System.out.println(T3.toString());
         System.out.println(T4.toString());
-  
- }
+    }
+}
